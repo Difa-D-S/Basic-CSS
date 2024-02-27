@@ -1,0 +1,172 @@
+body{
+    background-color: black;
+}
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap'); */
+
+h3{
+    color:white;
+    font-size: 30px;
+}
+.parent1{ 
+    display:flex;
+    margin:0px 450px;
+    margin-bottom:5px;
+}
+.p1{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(182, 182, 179);
+}
+
+.p2{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(3, 129, 55);
+}
+
+.p3{
+    margin:5px;
+    width:100px;
+    height:100px;
+    background-color: rgb(242, 242, 5);
+}
+
+.p4{
+    margin:5px;
+    width:100px;
+    height:100px;
+    background-color: rgb(236, 236, 183);
+}
+
+.p5{
+    margin:5px;
+    width:100px;
+    height:100px;
+    background-color: rgb(18, 7, 241);
+}
+
+.parent2{
+    display:flex;
+    margin:0px 340px;
+    margin-bottom: 5px;
+}
+
+.pp1{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(184, 160, 8);
+}
+
+.pp2{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(34, 2, 89);
+}
+
+.pp3{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(146, 6, 171);
+}
+
+.pp4{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(105, 41, 243);
+}
+
+.pp5{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgba(10, 141, 184, 0.671);
+}
+
+.pp6{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(228, 20, 9);
+}
+
+.pp7{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(17, 233, 31);
+}
+
+.parent3{
+    display:flex;
+    margin: 0px 230px;
+}
+
+.pa1{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(245, 249, 246);
+}
+
+.pa2{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(164, 29, 6);
+}
+
+.pa3{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(52, 46, 236);
+}
+
+.pa4{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(248, 237, 22);
+}
+
+.pa5{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(7, 107, 14);
+}
+
+.pa6{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(242, 248, 242);
+}
+
+.pa7{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(17, 154, 233);
+}
+
+.pa8{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(152, 6, 96);
+}
+
+.pa9{
+    width:100px;
+    height:100px;
+    margin:5px;
+    background-color: rgb(75, 7, 5);
+}

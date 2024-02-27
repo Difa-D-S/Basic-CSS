@@ -1,0 +1,29 @@
+h1{
+    color:red;
+    border: 5px solid rgb(77, 121, 2);
+    padding: 20px 20px 20px 20px;
+    margin: 80px 10px 50px 20px;
+    
+   /* margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px; */
+}
+*{
+    margin: 0px;
+}
+
+.div{
+    display:flex;
+}
+
+.parent1{
+    width:100px;
+    height:100px;
+    background-color: blue;
+}
+.parent2{
+    width:100px;
+    height:100px;
+    background-color: rgb(255, 0, 153);
+}

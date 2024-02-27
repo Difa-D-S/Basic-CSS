@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <link rel="stylesheet" href="animation.css">
+
+     <style>
+        /* Add custom styles here */
+        /* .animation {
+            position: relative;
+            margin: 50px auto;
+            width: 200px;
+            height: 200px;
+        }
+
+        .animated {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            border-radius: 50%;
+            animation: bounce 1s infinite alternate;
+        }
+
+        @keyframes bounce {
+            0% {
+                top: 0;
+            }
+            100% {
+                top: 150px;
+            }
+        } */
+
+        @keyframes fadeUp {
+          from {
+            opacity: 0;
+            transform: translateY(100px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+    
+        .fade-up {
+          opacity: 0;
+          animation: fadeUp 1s ease-out forwards;
+          animation-timeline: view(700px 1px);
+        }
+    </style> 
+    
+</head>
+<body>
+
+
+    
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col-md-6 offset-md-3 text-center fade-up" >
+          <h1 class="display-4">Welcome!</h1>
+          <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+        </div>
+        <div class="col-md-6 offset-md-3 text-center fade-up">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="300">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="400">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="500">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="600">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="700">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+          <div class="col-md-6 offset-md-3 text-center fade-up" data-aos="fade-up" data-aos-delay="100">
+            <h1 class="display-4">Welcome!</h1>
+            <p class="lead">This is a fade-up animation using Bootstrap 5 and custom CSS.</p>
+          </div>
+      </div>
+    </div>
+    
+    
+
+
+
+    <script src="../../../assets/vendor/aos/aos.js"></script>
+   
+</body>
+</html>

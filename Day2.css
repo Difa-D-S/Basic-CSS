@@ -1,0 +1,36 @@
+h2{
+    color:rgb(106, 2, 61);
+}
+
+#first{
+    color:#ff00ffd8;
+}
+
+.third{
+    color:red;
+}
+
+*{
+    margin:15px;
+}
+
+h3, h4{
+    color:rgba(17, 128, 168, 0.755);
+}
+
+h5{
+    color:hsla(326, 88%, 16%, 0.612);
+}
+
+/*CSS BACKGROUND*/
+body{
+    
+    background-color: rgb(7, 199, 94);
+    background-image: url("./Image/wallpaper1.jpg");
+    background-repeat: repeat-x;
+    background-size: 300px,500px;
+    background-position: right top;
+    background-attachment:fixed;
+
+    /*background: aqua url("./Image/wallpaper1.jpg") no-repeat right top fixed;*/
+}
